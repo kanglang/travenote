@@ -1,0 +1,124 @@
+.destCountry{
+    ul{
+        width: 100%;
+        text-align: left;
+        li{
+            width: 24.80%;
+            height: 180px;
+            display: inline-block;
+            margin-bottom: 5px;
+            background: #fff;
+            cursor: pointer;
+            .destPic{
+                border:1px solid #ececec;
+                padding:1px;
+                width:100%;
+                height:100%;
+                .destPicA{
+                    width:100%;
+                    height:100%;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                .destPicTitle{
+                    color: #fff;
+                    font-size: 15px;
+                    position: relative;
+                    bottom: 90px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 992px){
+    .destCountry{
+        ul{
+            li{
+                height:140px;
+                .destPic{
+                    width:100%;
+                    height:100%;
+                    .destPicA{
+                        width:100%;
+                        height:100%;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                    .destPicTitle{
+                        color: #fff;
+                        font-size: 15px;
+                        position: relative;
+                        bottom: 70px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 768px){
+    .homeTravel{
+        .destCountry{
+            ul{
+                li{
+                    height:100px;
+                    .destPic{
+                        width:100%;
+                        height:100%;
+                        .destPicA{
+                            width:100%;
+                            height:100%;
+                            img{
+                                width:100%;
+                                height:100%;
+                            }
+                        }
+                        .destPicTitle{
+                            color: #fff;
+                            font-size: 14px;
+                            position: relative;
+                            bottom: 50px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 576px){
+
+    .destCountry{
+        ul{
+            li{
+                height:50px;
+                .destPic{
+                    width:100%;
+                    height:100%;
+                    .destPicA{
+                        width:100%;
+                        height:100%;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                    .destPicTitle{
+                        color: #fff;
+                        font-size: 14px;
+                        position: relative;
+                        bottom: 35px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

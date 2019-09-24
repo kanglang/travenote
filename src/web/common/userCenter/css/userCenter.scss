@@ -1,0 +1,21 @@
+
+.mobile-right-header:hover{
+    background:rgba(0, 0, 0, 0.025);
+}
+.mobile-right-header{
+    display: inline-block;
+    height: 64px;
+    line-height: 64px;
+    vertical-align: top;
+    cursor: pointer;
+    .mobile-right-header-username{
+        display: block;
+        width: 90px;
+        font-size:14px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-left: 6px;
+        float: right;
+    }
+}

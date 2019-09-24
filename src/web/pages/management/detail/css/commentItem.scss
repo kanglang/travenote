@@ -1,0 +1,42 @@
+.commentShow{
+    width: 96%;
+    margin: 0 auto;
+    ul{
+        li{
+            .commentUser{
+                width: 100%;
+                line-height: 50px;
+                color: #666;
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+                .commentNick{
+                    color: #6969f1;
+                    font-size: 15px;
+                    margin-left: 5px;
+                }
+                .commentFY{
+                    float: right;
+                    cursor: pointer;
+                    font-size: 13px;
+                    color:#888;
+                }
+                .commentFYNum{
+                    margin-left:3px;
+                    font-size: 13px;
+                    color:#888;
+                }
+            }
+            .commentContent{
+                color:#111;
+                font-size: 15px;
+            }
+            .commentDate{
+                line-height: 20px;  
+                color: #888;
+                font-size: 12px;
+            }
+        }
+    }
+}

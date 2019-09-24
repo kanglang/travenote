@@ -1,0 +1,129 @@
+/**/
+
+html {
+    font-size: 87.5%;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    height: 1.5;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",sans-serif,'Microsoft Yahei';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    #root{
+        height: 100%;
+        position: relative;
+        background:#f5f5f5;
+        overflow: auto;
+    }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-before: 0;
+    -webkit-padding-after: 0;
+    -webkit-padding-start: 0;
+    -webkit-padding-end: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    word-break: break-all;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+button,
+input,
+textarea,
+a:focus {
+    outline: none;
+}
+
+h2 {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+ul li {
+    list-style: none
+}
+
+ol {
+    padding-left: 20px;
+    list-style-type: decimal;
+    & li {
+        list-style-position: outside;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    & td {
+        word-break: break-all;
+    }
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.none {
+    display: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    *height: 1%;
+}
+

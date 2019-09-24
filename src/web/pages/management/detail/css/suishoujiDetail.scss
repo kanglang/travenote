@@ -1,0 +1,130 @@
+
+.suishoujiTips{
+    border:1px solid #ececec;
+    background-color:#fff;
+    font-size:18px;
+    color:#666;
+    padding:8px 0;
+    margin-bottom: 5px;
+    .goback{
+        color:#6969f1;
+        padding:8px;
+        cursor: pointer;
+    }
+    .shjTips{
+        margin-left:8%;
+    }
+}
+.suishouji{
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+    border: 1px solid #ececec;
+    min-height: 600px;
+    .suishoujiTitle{
+        font-size: 20px;
+        color:#666;
+        text-align: center;
+        line-height: 50px;
+    }
+    .userInfo{
+       
+        .userDetail{
+            height:40px;
+            line-height: 40px;
+            color: #888;
+            text-align: center;
+            img{
+                width: 28px;
+                height:28px;
+            }
+            .nick{
+                margin:0px 15px;
+            }
+        }
+        .likeComment{
+            height:40px;
+            line-height: 40px;
+            color: #888;
+            text-align: center;
+            .like{
+               margin:0px 15px; 
+            }
+            .likeCommonStyle{
+                color:#F5222D;
+                margin-left:2px;
+            }
+            
+        }
+        .contentHtml{
+            width: 96%;
+            margin:0 auto;
+            text-align: center;
+            color: #666;
+            font-size:16px;
+            img{
+                width: 100%;
+            }
+            p{
+                text-align: left;
+            }
+        }
+        .commentWrap{
+            .commentTips{
+                color:#666;
+                font-size: 18px;
+                height: 50px;
+                line-height: 50px;
+                margin-left:2%;
+            }
+            .commentInput{
+                width:100;
+                text-align: center;
+                .commentArea{
+                    width:96%;
+                    padding: 5px;
+                    font-size: 16px;
+                    color: #666;
+                }
+                .commentNumBtn{
+                    height: 30px;
+                    line-height: 30px;
+                    width: 96%;
+                    margin: 0 auto;
+                    .commentNum{
+                        width: 50%;
+                        display: inline-block;
+                        text-align: left;
+                    }
+                    .commentBtn{
+                        width: 50%;
+                        display: inline-block;
+                        text-align: right;
+                        input{
+                            width:80px;
+                            background: #F5222D;
+                            color:#fff;
+                            display: inline-block;
+                            height: 28px;
+                            padding: 0 15px;
+                            border: none;
+                            border-radius: 3px;
+                            overflow: visible;
+                            font-size: 14px;
+                            line-height: 28px;
+                            text-align: center;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media(max-width: 576px){
+    .suishouji{
+        width: 99.8%;
+    }
+}

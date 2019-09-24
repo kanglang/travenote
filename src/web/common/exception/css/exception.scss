@@ -1,0 +1,22 @@
+.exception-wrap {
+    position: absolute;
+    text-align: center;
+    transform: translateY(-80%);
+    top: 50%;
+    right: 0;
+    left: 0;
+    padding: 0 30px;
+    .ex-img {
+        font-size: 0;
+    }
+    .ex-title {
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 30px;
+        color: rgba(0,0,0,.45);
+    }
+    .ex-content {
+        margin-top: 30px;
+    }
+}

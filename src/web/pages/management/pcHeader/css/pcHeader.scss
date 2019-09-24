@@ -1,0 +1,111 @@
+.ant-menu.ant-menu-horizontal .ant-menu-item{
+    border-bottom: none;
+}
+.ant-menu.ant-menu-horizontal .ant-menu-item-selected{
+    color:#F5222D;
+    border-bottom: none;
+}
+.ant-menu.ant-menu-horizontal .ant-menu-item-active{
+    color:#F5222D;
+    border-bottom: none;
+}
+.ant-menu.ant-menu-horizontal .ant-menu-submenu{ 
+    border-bottom: none;
+}
+.ant-menu.ant-menu-horizontal .ant-menu-submenu:hover{ 
+    color:#F5222D;
+    border-bottom: none;
+}
+.ant-menu.ant-menu-horizontal .ant-menu-submenu-active{ 
+    color:#F5222D;
+    border-bottom: none;
+}
+.ant-menu.ant-menu-horizontal .ant-menu-submenu-open{ 
+    color:#F5222D;
+    border-bottom: none;
+}
+.ant-menu.ant-menu-horizontal .ant-menu-submenu-selected{ 
+    color:#F5222D;
+    border-bottom: none;
+}
+.ant-menu.ant-menu-horizontal .ant-menu-submenu-title:hover{ 
+    color:#F5222D;
+    border-bottom: none;
+}
+
+.ant-menu .ant-menu-item:hover{
+    color:#F5222D;
+    border-bottom: none;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: #f8e9ea;
+}
+.ant-menu .ant-menu-item-selected{
+    color:#F5222D;
+}
+
+.header-ld-com-head{
+    width:100%;
+    background: #fff;
+    height:65px;
+    z-index: 1999;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;
+    margin: 0 auto;
+    height:65px;
+    position: relative;
+    .header-logo {
+        margin:0 24px;
+        display: inline-block;
+        a {
+            font-size: 0;
+            .logo{
+                display: inline-block;
+                height: 18px;
+                width: 36px;
+                background: url('../../../../common/images/logo.png') no-repeat 0 0;
+                background-size: cover;
+            }
+            h1{
+                display: inline-block;
+                font-size: 16px;
+                margin: 0 0 0 12px;
+                font-family: Avenir, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.85);
+            }
+        }
+    }
+    .header-menu{
+        width:55%;
+        line-height: 63px;
+        display: inline-block;
+        border-bottom: none;
+        li{
+            font-size:18px;
+        }
+    }
+}
+
+@media(max-width:576px){
+    .header-ld-com-head{
+        .header-logo {
+            margin:0 10px;
+            a {
+                font-size: 0;
+                .logo{
+                    height: 12px;
+                    width: 22px;
+                }
+            }
+        }
+        .header-menu{
+            li{
+                font-size:16px;
+                padding: 0 5px;
+                div{
+                    padding: 0 5px;
+                }
+            }
+        }
+    }
+}
